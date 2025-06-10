@@ -179,7 +179,7 @@ const handleDelete = (id) => {
                         </div>
                       ))}
                     </div>
-                    {isLoading ?
+                    {isLoading ?      
                       <button disabled>Loading...</button>
                       :
                       <button onClick={loadDetails}>load data</button>
